@@ -12,7 +12,7 @@ This project was created using a jupyter notebook, python 3.6 and the following 
 * seaborn 0.8.0
 
 The Kaggle version use the library  *'bq_helper'* to access the bigquery dataset.
-(with kaggle the google connection library is pre-installed, and all the autentication and connections are handled directly by kaggle)
+(with kaggle the google connection library is pre-installed, and all the authentication and connections are handled directly by kaggle)
 
 For further information on how interact with the Google big query with python check the link below.
 
@@ -27,7 +27,28 @@ The 3 jupiter notebooks are answering three questions about the Crimes between 2
 2.  On which of the London Boroughs the number of Crimes is increasing, and which is decreasing? 
 
 3. Which type of criminal event is increasing and which is decreasing? 
+
 ### Files
+
+1. London Crimes Trends.ipynb
+
+General introduction to the thematic of the repository. 
+
+2. First Question.ipynb
+
+All the analysis steps for answering the first question.
+
+3. Second Question.ipynb
+
+All the analysis steps for answering the second question.
+
+4. Third Question.ipynb
+
+All the analysis steps for answering the third question
+
+5. README.md
+
+The present document.
 
 
 ### Data Used
@@ -38,11 +59,11 @@ One useful thing about this dataset is that is directly available with both the 
 
 ### Results
 
-There is a soasonal pattern, the number of crimes in December and January is reduced 
+There is a seasonal pattern, the number of crimes in December and January is reduced 
 (We may call it Christmas effect :) ), and we have an increase in November as a sort of rush before holiday.
-A similar pattern appears in the Summer time, where there is a peak in June and July with a significative decrease on the holiday season (August).
+A similar pattern appears in the Summer time, where there is a peak in June and July with a significant decrease on the holiday season (August).
 
-The other good news is that teh number of crime is decreasing over time.
+Other good news, the number of crime is decreasing over time.
 
 
 ### Note
